@@ -1,0 +1,51 @@
+/* Carattere - локальний шрифт */
+@font-face {
+  font-family: "Carattere";
+  src: url("./assets/fonts/Carattere-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carattere-Regular";
+  src: url("./assets/fonts/Carattere-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* NT Somic - локальні шрифти */
+@font-face {
+  font-family: "NT Somic-Regular";
+  src: url("./assets/fonts/01_NTSomic-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NT Somic-Medium";
+  src: url("./assets/fonts/02_NTSomic-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NT Somic-Bold";
+  src: url("./assets/fonts/03_NTSomic-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Variable Font - опціонально */
+@font-face {
+  font-family: "NT Somic";
+  src: url("./assets/fonts/NT Somic-VF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+

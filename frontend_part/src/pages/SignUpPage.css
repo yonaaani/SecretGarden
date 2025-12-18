@@ -1,0 +1,117 @@
+.signup-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #FEFAF1;
+}
+
+/* Ліва частина: контент */
+.signup-left {
+  flex: 1;
+  background-color: #FEFAF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+  padding-left: 110px;
+}
+
+/* Лого зверху */
+.signup-left-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Заголовок */
+.signup-title {
+  font-size: 70px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #21492F;
+  font-family: "Carattere";
+}
+
+/* Input групи */
+.input-group {
+  width: 80%;
+  max-width: 350px;
+  background-color: #FEFAF1;
+  border: 1px solid #21492F;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.clickable-icon {
+  cursor: pointer;
+}
+
+.input-label {
+  margin-right: 10px;
+  color: #21492F;
+  font-size: 15px;
+  font-family: "NT Somic-Medium", Helvetica;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+}
+
+/* Sign Up button */
+.signup-button {
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: 15px;
+}
+.signup-button:hover {
+  transform: scale(1.05);
+}
+
+/* Права частина: фон */
+.signup-right {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.signup-right-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 10;
+}
+
+.signin-left-signin {
+  position: absolute;
+  top: 175px;
+  width: 120px; 
+  transform: translateX(-50%);
+  right: 65px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+

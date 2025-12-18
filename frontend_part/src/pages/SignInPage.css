@@ -1,0 +1,187 @@
+.signin-layout {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Права частина */
+.signin-right {
+  flex: 1;
+  background-color: #FEFAF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  z-index: 0; /* під лівою частиною */
+  position: relative;
+}
+
+/* Ліва частина поверх */
+.signin-left {
+  position: absolute; /* поверх правої */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%; /* займає половину екрану, можна змінити */
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Картинка на всю ліву частину */
+.signin-left-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Контент поверх фону */
+.signin-left-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #FEFAF1;
+  text-align: center;
+}
+
+.signin-left-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 70px; 
+  height: auto;
+  cursor: pointer;
+  z-index: 2; /* над фоном та контентом */
+  transition: transform 0.2s ease;
+}
+
+.signin-left-signup {
+  position: absolute;
+  bottom: 150px;
+  width: 120px; 
+  transform: translateX(-50%);
+  left: 540px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.signin-right {
+  flex: 1;
+  background-color: #FEFAF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  z-index: 0;
+  position: relative;
+  left: 280px;
+}
+
+/* Заголовок */
+.signin-title {
+  font-size: 70px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #21492F;
+  font-family: "Carattere";
+}
+
+/* Група input з іконкою */
+.input-group {
+  width: 80%;
+  max-width: 350px;
+  background-color: #FEFAF1;
+  border: 1px solid #21492F;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+/* Іконка всередині input */
+.input-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Лейбл перед полем вводу */
+.input-label {
+  margin-right: 10px;
+  color: #21492F;
+  font-size: 15px;
+  font-family: "NT Somic-Medium", Helvetica;
+}
+
+/* Поле вводу */
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+}
+
+/* Forgot password */
+.forgot-password {
+  color: #0F1111;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* Кнопка Sign In */
+.signin-button {
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.signin-button:hover {
+  transform: scale(1.05);
+}
+
+.input-group {
+  width: 80%;
+  max-width: 350px;
+  background-color: #FEFAF1;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.clickable-icon {
+  cursor: pointer;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+}

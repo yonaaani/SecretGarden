@@ -1,0 +1,142 @@
+.box1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box1 .group1 {
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  height: 600px;
+  left: 100px;
+  position: fixed;
+  top: 135px;
+  width: 1250px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.box1 .group1:hover {
+  opacity: 0.95;
+}
+
+.box1 .group1.dragging1 {
+  opacity: 0.8;
+  border: 2px dashed #21492f;
+}
+
+.box1 .intersect1 {
+  aspect-ratio: 1.69;
+  height: 169px;
+  margin-left: 485px;
+  margin-top: 157px;
+  object-fit: cover;
+  width: 300px;
+  z-index: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.box1 .div1 {
+  height: 150px;
+
+  
+  width: 535px;
+  z-index: 10;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 385px;
+  margin-top: 15px;
+}
+
+.box1 .text-wrapper1 {
+  color: #fefaf1;
+  font-family: "NT Somic-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 55px;
+  width: 282px;
+  z-index: 11;
+  visibility: visible;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.box1 .group-2-1 {
+  height: 60px;
+  left: -25px;
+  position: relative;
+  top: -40px;
+  width: 551px;
+  z-index: 11;
+}
+
+.box1 .drop-your-bloom-her1 {
+  color: #ffffff;
+  font-family: "NT Somic-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.box1 .span {
+  color: #ffffff;
+}
+
+.box1 .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.box1 .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 260px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.box1 .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 503px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.box1 .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}

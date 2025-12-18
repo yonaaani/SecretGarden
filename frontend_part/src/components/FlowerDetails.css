@@ -1,0 +1,221 @@
+.flower-details {
+  position: relative;
+    height: 700px;
+    margin-top: 101px;
+    width: 1450px;
+    left: -20px;
+    display: flex;
+  flex-direction: column;
+}
+
+.flower-details button {
+  align-self: flex-start;
+  margin-bottom: 24px;
+}
+
+.flower-details-row {
+  display: flex;          
+  flex-direction: row;     
+  gap: 60px;               
+  align-items: flex-start; /* вирівнювання по верхньому краю */
+  position: relative;
+  margin-top: 45px;
+}
+
+.flower-content {
+  margin-left: 170px; /* загальний відступ зліва */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 45px;
+  position: relative;
+}
+
+.flower-image-wrapper {
+  position: relative; 
+  width: 308px;
+  height: 408px;
+}
+
+
+.rectangle-flowerdetail {
+  height: 408px;
+
+  position: relative; 
+  left: auto !important;
+  top: auto !important;
+  object-fit: cover;
+
+  display: block;
+  width: 308px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+.flower-overlay-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 40px;      /* підкоригуєш під макет */
+  height: 25px;
+
+  cursor: pointer;
+  z-index: 2;
+}
+
+.flower-decorative {
+  position: absolute;
+  top: 125px; 
+  right: -126px; 
+  width: 161px;  
+  height: 102px;
+  z-index: 1; 
+}
+
+.flower-details .latin-name {
+  margin-top: -40px;
+  letter-spacing: 0.12em;
+  margin-left: -40px;
+  z-index: 3;
+}
+
+.flower-details .latin-first {
+  font-size: 100px;
+  font-weight: 600;
+  color: #21492F;
+  font-family: "Carattere-Regular", Helvetica;
+}
+
+.flower-details .latin-rest {
+  font-size: 35px;
+  font-weight: 500;
+  color: #21492F;
+  font-family: "NT Somic-Medium", Helvetica;
+}
+
+.flower-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; /* відстань між лівим фото і правим блоком */
+  align-items: flex-start;
+}
+
+.flower-info-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  top: 100px;
+  left: 530px; 
+  position: absolute;
+}
+
+/* Українська назва квітки з заміненими літерами */
+.flower-ukrainian-name {
+  font-size: 28px;
+  font-weight: 600;
+  color: #21492F;
+}
+
+/* Змінені літери */
+.special-letter {
+  font-family: "Carattere-Regular", Helvetica; /* шрифт для o, a, e */
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* Усі інші літери */
+.normal-letter {
+ font-family: "NT Somic-Medium", Helvetica; /* інший шрифт для всього іншого */
+ font-size: 30px;
+  font-weight: 500;
+}
+
+.flower-description {
+  font-family: "NT Somic-Medium", Helvetica;
+  padding-right: 150px;
+  font-size: 15px;
+}
+
+.flower-symbolism {
+  margin-top: 35px;
+  font-family: "NT Somic-Medium", Helvetica;
+  padding-right: 150px;
+  font-size: 15px;
+  margin-left: 100px;
+}
+
+.flower-care {
+  font-family: "NT Somic-Medium", Helvetica;
+  padding-right: 550px;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.color-names {
+  margin-top: 11px;
+  margin-right: 5px;
+}
+
+.flower-colors {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.color-circles {
+  display: flex;
+  gap: 10px; /* відстань між кружками */
+  margin-top: 4px;
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* робимо кружок */
+}
+
+.flower-bg-image {
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  top: 250px;
+  width: 621.9px; /* підкоригуй під макет */
+  height: auto;
+  z-index: 0; /* щоб текст був зверху */
+}
+
+.flower-navigation {
+  position: fixed;
+  bottom: 250px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 2; /* вище за фон */
+  margin-bottom: -59px;
+}
+
+.nav-arrow {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; 
+  height: 50px;
+  margin-right: 100px;
+}
+
+.nav-arrow-arrow-right {
+  width: 50px; 
+  height: 50px;
+   position: fixed;
+}
+
+.nav-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+}

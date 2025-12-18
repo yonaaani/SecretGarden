@@ -1,0 +1,162 @@
+.profile-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #FEFAF1;
+}
+
+/* Банер */
+.profile-banner {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Лінія */
+.vector1 {
+  margin-top: 25px;
+
+  height: 1px;
+  left: -20px;
+  object-fit: cover;
+  position: absolute;
+  width: 120%;
+  max-width: 120%;
+}
+
+
+/* Основний блок */
+.profile-main {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 60px;
+  position: relative;
+}
+
+/* Фото */
+.profile-photo-wrapper {
+  margin-top: -110px; /* поверх банеру */
+  z-index: 5;
+}
+
+.profile-photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 10px solid #FEFAF1;
+  object-fit: cover;
+}
+
+/* Інформація */
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+/* Імʼя */
+.profile-name {
+  font-size: 35px;
+  font-family: "NT Somic-Medium", Helvetica;
+  color: #21492F;
+  margin: 0;
+}
+
+.name-special {
+  color: #21492F;
+  font-size: 40px;
+  font-family: "Carattere", cursive;
+}
+
+/* Підпис */
+.profile-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Інпути справа */
+.profile-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+}
+
+/* input — взято зі стилю Auth / SignIn */
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #21492F;
+  border-radius: 7px;
+  padding: 10px 15px;
+  background-color: #FEFAF1;
+}
+
+.input-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+}
+
+.profile-credentials {
+  margin-top: 60px;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 800px;
+}
+
+/* Кнопка в правому нижньому куті */
+.profile-banner-button {
+  position: absolute;
+  bottom: 30px; /* відступ знизу */
+  right: 30px;  /* відступ справа */
+  width: 50px; /* під розмір картинки */
+  cursor: pointer;
+  z-index: 3;
+
+  transition: transform 0.2s ease;
+}
+
+.profile-banner-button:hover {
+  transform: scale(1.05);
+}
+
+.profile-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.input-field[readonly] {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.profile-name:not(.editable) {
+  pointer-events: none;
+}
+

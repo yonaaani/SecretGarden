@@ -1,0 +1,119 @@
+.box1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box .div {
+  height: 150px;
+  width: 935px;
+  z-index: 10;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: -515px;
+  margin-top: -275px;
+}
+
+.box .drop-your-bloom-her {
+  color: #ffffff;
+  font-family: "NT Somic-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.box .group-2 {
+  height: 60px;
+  left: -25px;
+  position: relative;
+  top: -40px;
+  width: 1051px;
+  z-index: 11;
+}
+
+.box .text-wrapper {
+  color: #fefaf1;
+  font-family: "NT Somic-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 270px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 55px;
+  width: 382px;
+  z-index: 11;
+  visibility: visible;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.auth-gif {
+  width: 44px;
+  margin-bottom: 35px;
+  align-items: center;
+  margin-left: 440px;
+}
+
+.sign-in-button {
+  cursor: pointer;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+.box .span {
+  color: #ffffff;
+}
+
+.box .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.box .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 260px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 503px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Carattere-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
